@@ -1,0 +1,10 @@
+^C:\USERS\ADRIA\COMPUTER-VISION\OPENCV\OPENCVTEST\BUILD\CMAKEFILES\58B1C32DB78E42CD77E7760A5557E3F1\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/adria/Computer-Vision/OpenCV/OpenCVTest -BC:/Users/adria/Computer-Vision/OpenCV/OpenCVTest/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/adria/Computer-Vision/OpenCV/OpenCVTest/build/OpenCVTest.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
