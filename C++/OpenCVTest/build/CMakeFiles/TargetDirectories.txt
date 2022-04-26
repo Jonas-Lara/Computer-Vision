@@ -1,3 +1,0 @@
-C:/Users/adria/Computer-Vision/OpenCV/OpenCVTest/build/CMakeFiles/Main.dir
-C:/Users/adria/Computer-Vision/OpenCV/OpenCVTest/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/adria/Computer-Vision/OpenCV/OpenCVTest/build/CMakeFiles/ZERO_CHECK.dir
