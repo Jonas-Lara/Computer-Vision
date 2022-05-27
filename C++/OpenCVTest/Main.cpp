@@ -1,19 +1,19 @@
-#include <stdio.h>
 #include <opencv2/opencv.hpp>
+#include <iostream>
 
 using namespace cv;
-int main(int argc, char** argv )
-{
 
-    Mat image;
-    image = imread("C:/Users/adria/OneDrive/Pictures/OpenCV-Images/lenna.png");
-    if ( !image.data )
+int main()
+{
+    std::string image_path = samples::findFile("/home/jonas/Dropbox/Pictures/OpenCV-Images/lenna.png");
+    Mat img = imread(image_path, IMREAD_COLOR);
+    if(img.empty())
     {
-        printf("No image data \n");
-        return -1;
+        std::cout << "Could not read the image: " << image_path << std::endl;
+        return 1;
     }
-    namedWindow("Display Image", WINDOW_AUTOSIZE );
-    imshow("Display Image", image);
-    waitKey(0);
+    imshow("OpenCV Test", img);
+    int k = waitKey(0); // Wait for a keystroke in the window
+    
     return 0;
 }
