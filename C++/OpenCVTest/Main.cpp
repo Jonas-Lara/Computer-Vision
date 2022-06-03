@@ -5,7 +5,7 @@ using namespace cv;
 
 int main()
 {
-    std::string image_path = samples::findFile("/home/jonas/Dropbox/Pictures/OpenCV-Images/lenna.png");
+    std::string image_path = samples::findFile("C:/Users/adria/OneDrive/Pictures/OpenCV-Images/lenna.png");
     Mat img = imread(image_path, IMREAD_COLOR);
     if(img.empty())
     {
