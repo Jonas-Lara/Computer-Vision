@@ -1,3 +1,0 @@
-/home/jonas/Computer-Vision/C++/OpenCVTest/build/CMakeFiles/Main.dir
-/home/jonas/Computer-Vision/C++/OpenCVTest/build/CMakeFiles/edit_cache.dir
-/home/jonas/Computer-Vision/C++/OpenCVTest/build/CMakeFiles/rebuild_cache.dir

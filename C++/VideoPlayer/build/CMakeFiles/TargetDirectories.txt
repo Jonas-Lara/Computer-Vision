@@ -1,3 +1,0 @@
-/home/jonas/Computer-Vision/C++/VideoPlayer/build/CMakeFiles/Main.dir
-/home/jonas/Computer-Vision/C++/VideoPlayer/build/CMakeFiles/edit_cache.dir
-/home/jonas/Computer-Vision/C++/VideoPlayer/build/CMakeFiles/rebuild_cache.dir

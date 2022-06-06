@@ -1,9 +1,16 @@
-# Computer-Vision
+# Config-Machine
 
+## Instalación 
 
-### Computer vision with C++
+_Clona el repositorio y muevete dentro de él_
 
-### Computer vision with Python
+```
+git clone https://github.com/Jonas-Lara/Config-Machine.git
+```
 
-### Computer vision with Azure
+_Corre el script Config.sh (Leelo antés)_
+
+```
+bash ./Config.sh
+```
 

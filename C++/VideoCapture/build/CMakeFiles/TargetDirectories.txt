@@ -1,3 +1,0 @@
-/home/jonas/Computer-Vision/C++/VideoCapture/build/CMakeFiles/Main.dir
-/home/jonas/Computer-Vision/C++/VideoCapture/build/CMakeFiles/edit_cache.dir
-/home/jonas/Computer-Vision/C++/VideoCapture/build/CMakeFiles/rebuild_cache.dir
