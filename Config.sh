@@ -6,7 +6,21 @@ echo " "
 sudo apt update && sudo apt upgrade -y
 
 echo " "
-echo "Compilador: "
+echo "Interprete de Python 3 y el administrados de paquetes pip: "
+echo " "
+
+sudo apt install python3 python3-dev python3-pip
+
+echo " "
+echo "Paquetes de Python:"
+echo " "
+
+python3 -m pip install numpy
+python3 -m pip install opencv-python
+python3 -m pip install virtualenv
+
+echo " "
+echo "Compilador para C++: "
 echo " "
 
 sudo apt install build-essential 
