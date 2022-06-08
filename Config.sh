@@ -6,7 +6,7 @@ echo " "
 sudo apt update && sudo apt upgrade -y
 
 echo " "
-echo "Interprete de Python 3 y el administrado de paquetes pip: "
+echo "Interprete de Python 3 y el administrador de paquetes pip: "
 echo " "
 
 sudo apt install python3 python3-dev python3-pip
