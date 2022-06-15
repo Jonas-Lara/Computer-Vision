@@ -1,0 +1,10 @@
+^C:\USERS\ADRIA\COMPUTER-VISION\C++\02.-VIDEO\VIDEOCAPTURE\BUILD\CMAKEFILES\9500ACC349F494EBA037FFC6EB49A377\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/adria/Computer-Vision/C++/02.-Video/VideoCapture -BC:/Users/adria/Computer-Vision/C++/02.-Video/VideoCapture/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/adria/Computer-Vision/C++/02.-Video/VideoCapture/build/OpenCVTest.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

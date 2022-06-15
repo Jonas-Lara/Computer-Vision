@@ -1,0 +1,3 @@
+C:/Users/adria/Computer-Vision/C++/02.-Video/VideoCapture/build/CMakeFiles/Main.dir
+C:/Users/adria/Computer-Vision/C++/02.-Video/VideoCapture/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/adria/Computer-Vision/C++/02.-Video/VideoCapture/build/CMakeFiles/ZERO_CHECK.dir

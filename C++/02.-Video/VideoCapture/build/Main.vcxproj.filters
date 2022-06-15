@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\adria\Computer-Vision\C++\02.-Video\VideoCapture\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\adria\Computer-Vision\C++\02.-Video\VideoCapture\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{47E1DE73-AAD9-3BAD-875C-68F003A0C7E2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

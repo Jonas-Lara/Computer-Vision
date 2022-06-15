@@ -1,0 +1,10 @@
+^C:\USERS\ADRIA\COMPUTER-VISION\C++\02.-VIDEO\VIDEOCAPTURE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/adria/Computer-Vision/C++/02.-Video/VideoCapture -BC:/Users/adria/Computer-Vision/C++/02.-Video/VideoCapture/build --check-stamp-file C:/Users/adria/Computer-Vision/C++/02.-Video/VideoCapture/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
