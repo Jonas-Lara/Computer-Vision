@@ -7,7 +7,7 @@ int main()
 {
     Mat image; //Declaro una matriz para cargar los marcos
 
-    namedWindow("Display window"); //Declaro una ventana para mostrar el video
+    namedWindow("Display window"); //Declaro una ventana	 para mostrar el video
 
     VideoCapture cap(0); //Declaro un objeto para capturar el flujo de fotogramas de la camara predeterminada
 
